@@ -14,7 +14,7 @@
          <input type="text" name="username" id="username" required pattern="[a-zA-z/d]+" >
          </center><br>
      <center><lable for="password">password</lable>
-         <input type="password"  name="password" id="password" pattern="[a-zA-z/d]+" maxlength="16" minlength="8" required="min8 to max16" ></center>
+         <input type="password"  placeholder="password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[\d])(?=.*[@!#$%^&*]).{8,16}" minlength="8" maxlength="16" title="please entermin 8 and max 16" ></center>
      <br>
      <center><input type="submit" name="" id="" value="Login"></center>
      
